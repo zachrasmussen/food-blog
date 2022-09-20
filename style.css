@@ -1,0 +1,121 @@
+.bg-img {
+    background-image: url("https://images.unsplash.com/photo-1466637574441-749b8f19452f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80");
+    height: 45vh;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.nav-title-font {
+    font-family: "Dancing Script", cursive;
+    font-size: 75px;
+    text-shadow: 1px 1px 25px #414141;
+    color: white;
+}
+
+.sub-title-font {
+    font-family: "Poppins", sans-serif;
+    text-shadow: 1px 1px 25px #414141;
+    color: white;
+}
+
+.mini-nav {
+    transform: translateY(65px);
+    /* transform: translateY(140px); */
+}
+
+.recipe-card-img {
+    height: 20em;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.recipe-item div {
+    position: relative;
+}
+
+.item-name {
+    position: absolute;
+    bottom: 0;
+    background: rgba(218, 217, 217, 0.4);
+    border: 0.5px solid #a3a3a3;
+    backdrop-filter: blur(10px);
+}
+
+.add-recipe {
+    font-size: 3em;
+    color: #0096fa;
+    cursor: pointer;
+}
+
+.recipe-title-bg {
+    background-color: #0096fa;
+    width: 100%;
+}
+
+.submit-color {
+    background-color: #0096fa;
+    color: white;
+}
+
+.details-img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.recipe-item div {
+    position: relative;
+}
+
+.title-font {
+    font-size: 25px;
+    color: black;
+}
+
+.desc-font {
+    font-size: 20px;
+    color: black;
+}
+
+.item-name {
+    position: absolute;
+    bottom: 0;
+    background: rgba(218, 217, 217, 0.4);
+    border: 0.5px solid #a3a3a3;
+    backdrop-filter: blur(10px);
+}
+
+.steps {
+    background-color: #0096fa;
+}
+
+.scrolling {
+    height: 40vh;
+    overflow-y: auto;
+}
+
+.cursor-point {
+    cursor: pointer;
+}
+
+.home {
+    display: grid;
+    height: 80vh;
+    place-content: center;
+    text-align: center;
+    user-select: none;
+}
+
+.home-card {
+    width: 50vw;
+}
+
+.card-img {
+    height: 200px;
+    max-width: 200px;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
